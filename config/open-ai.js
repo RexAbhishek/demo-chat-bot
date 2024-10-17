@@ -3,9 +3,8 @@ import dotenv from "dotenv";
 dotenv.config();
 
 
-
 const openai = new OpenAI({
-    apiKey: 
+    apiKey: process.env.API_KEY
 });
 
 export default openai;
