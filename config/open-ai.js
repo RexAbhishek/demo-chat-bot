@@ -7,7 +7,7 @@ dotenv.config();
 // });
 
 const openai = new OpenAI({
-    apiKey: process.env.API_KEY
+    apiKey: 
 });
 
 export default openai;
